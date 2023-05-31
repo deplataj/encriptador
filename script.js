@@ -83,7 +83,7 @@ function botonCopiarTexto(){
 function validarLetras(string){
    
     //Se añaden las letras validas
-    var filtro = 'abcdefghijklmnñopqrstuvwxyz';//Caracteres validos
+    var filtro = ' abcdefghijklmnñopqrstuvwxyz';//Caracteres validos
 	
     for (var i=0; i<string.length; i++){
        if (filtro.indexOf(string.charAt(i)) == -1) {
